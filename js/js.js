@@ -32,6 +32,11 @@ function validaremail(email){
     const pattern = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/ 
     console.log("sin limpiar:", email, " y limpio:",correo)
 // if(!pattern.test(input.value)){
+    // validar email   2
+//localizar que el @ este en medio de el usuario y el servidor 
+//que termine en punto y la extencion del correo(buscar lista de la extencion)
+//¿aceptar o denegar cualquier direccion de correo?
+
     if (typeof correo !== 'string' || correo === ""||!pattern.test(correo)){
             console.log("entro en el if")
             return false
@@ -71,10 +76,6 @@ function mirarfecha() {
 
 
 
-// validar email   2
-//localizar que el @ este en medio de el usuario y el servidor 
-//que termine en punto y la extencion del correo(buscar lista de la extencion)
-//¿aceptar o denegar cualquier direccion de correo?
 
 
 // validar url     3
